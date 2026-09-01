@@ -17,13 +17,13 @@ const ScheduleSection = () => {
 
   return (
     <>
-      {/*
+
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           <div className="text-center mb-12">
             <p className="text-[#C80080] text-sm sm:text-base font-medium mb-3">
-              SCEECS Conference 2026
+              SCEECS Conference 2027
             </p>
 
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -48,7 +48,7 @@ const ScheduleSection = () => {
 
         </div>
       </section>
-      */}
+
     </>
   );
 };
