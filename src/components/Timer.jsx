@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const EventTimerSection = () => {
-  const targetDate = new Date("2027-01-31T00:00:00").getTime();
+  const targetDate = new Date("2027-01-30T00:00:00").getTime();
 
   const calculateTimeLeft = () => {
     const now = new Date().getTime();

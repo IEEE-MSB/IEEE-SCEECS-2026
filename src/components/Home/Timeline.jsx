@@ -5,7 +5,7 @@ const HowItWorkTimeline = () => {
     const data = [
         {
             title: "SUBMISSIONS OPEN",
-            date: "1 Sep 2026",
+            date: "10 Oct 2025",
             content: (
                 <div className="bg-gray-50 rounded-lg p-6">
                     <p className="text-gray-900 text-lg md:text-xl font-bold mb-4">
@@ -39,7 +39,7 @@ const HowItWorkTimeline = () => {
         },
         {
             title: "Acceptance Notification",
-            date: "18 Dec 2026",
+            date: "19 Dec 2027",
             content: (
                 <div className="bg-gray-50 rounded-lg p-6">
                     <p className="text-gray-900 text-lg md:text-xl font-bold mb-3">
@@ -53,7 +53,7 @@ const HowItWorkTimeline = () => {
         },
         {
             title: "Camera Ready Submissions",
-            date: "25 Dec 2026",
+            date: "25 Dec 2027",
             content: (
                 <div className="bg-gray-50 rounded-lg p-6">
                     <p className="text-gray-900 text-lg md:text-xl font-bold mb-3">
@@ -67,7 +67,7 @@ const HowItWorkTimeline = () => {
         },
         {
             title: "Paper Presentation",
-            date: "31 Jan-1 Feb 2027",
+            date: "30 Jan-31st Jan 2027",
             content: (
                 <div className="bg-gray-50 rounded-lg p-6">
                     <p className="text-gray-900 text-lg md:text-xl font-bold mb-3">
@@ -86,7 +86,7 @@ const HowItWorkTimeline = () => {
             content: (
                 <div className="bg-gray-50 rounded-lg p-6">
                     <p className="text-gray-900 text-lg md:text-xl font-bold">
-                        Accepted papers will be published in the SCEECS 2026 Conference Proceedings and submitted to IEEE Xplore.
+                        Accepted papers will be published in the SCEECS 2027 Conference Proceedings and submitted to IEEE Xplore.
                     </p>
                 </div>
             ),

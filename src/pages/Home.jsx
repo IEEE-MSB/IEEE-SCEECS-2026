@@ -20,7 +20,7 @@ function Home() {
   ]
   return (
     <div>
-      <Hero src="/background/conference.jpg" content="IEEE SCEECS 2027" dates="31st Jan - 1st Feb 2027, Bhopal, India." buttonContent={button} />
+      <Hero src="/background/conference.jpg" content="IEEE SCEECS 2027" dates="30th Jan - 31st Jan 2027, Bhopal, India." buttonContent={button} />
       <EventTimerSection />
       <VideoShowcase />
       <About />
