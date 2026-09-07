@@ -15,7 +15,7 @@ import ScheduleSection from "../components/Home/ScheduleSection";
 
 function Home() {
   const button = [
-    { text: "Visit IEEE-MSB", link: "https://ieeenitb.com/" },
+    { text: "Visit IEEE-MSB", link: "ieee-msb-2025.vercel.app" },
     { text: "Conference details", link: "/docs/CALL FOR PAPER 1.png" },
   ]
   return (

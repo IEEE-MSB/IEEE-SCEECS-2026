@@ -2,22 +2,22 @@ import { PixelImage } from '../components/pixel-image';
 
 const teamMembers = [
   {
-    name: "Mr. Vedant Jaiswal",
+    name: "Mr. Ayush Kumar",
     role: "Organizing Co-chair",
     image: "https://images.unsplash.com/photo-1752779588144-938ea861bf05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"
   },
   {
-    name: "Ms Yashika Lawani",
+    name: "Ms. Rishabh Sonkar",
     role: "Publication Co-chair",
     image: "https://images.unsplash.com/photo-1752779588144-938ea861bf05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"
   },
   {
-    name: "Ms. Priyanshi Khandelwal",
+    name: "Ms. Rahul Agarwal",
     role: "Program Co-chair",
     image: "https://images.unsplash.com/photo-1752779588144-938ea861bf05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"
   },
   {
-    name: "Mr. Vivek Kumar",
+    name: "Ms. Tanvi Sundarkar",
     role: "Finance Co-chair",
     image: "https://images.unsplash.com/photo-1752779588144-938ea861bf05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8"
   }

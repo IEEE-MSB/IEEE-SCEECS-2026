@@ -3,28 +3,28 @@ import Hero from '@/components/Hero';
 
 const teamMembers = [
   {
-    name: "Mr. Vedant Jaiswal",
+    name: "Mr. Ayush Kumar",
     role: "Organizing Co-chair",
-    image: "/contactTeam/vedant.jpg",
-    linkedin: "https://www.linkedin.com/in/vedant-jaiswal"
+    image: "/contactTeam/Ayush.jpg",
+    linkedin: "https://www.linkedin.com/in/ayush-kumar-manit-bhopal/"
   },
   {
-    name: "Ms Yashika Lawani",
+    name: "Ms. Rishabh Sonkar",
     role: "Publication Co-chair",
-    image: "/contactTeam/Yashika.jpeg",
-    linkedin: "https://www.linkedin.com/in/yashika-lawani"
+    image: "/contactTeam/rishabh.jpg",
+    linkedin: "https://www.linkedin.com/in/rishabhmzp/"
   },
   {
-    name: "Ms. Priyanshi Khandelwal",
+    name: "Ms. Rahul Agarwal",
     role: "Program Co-chair",
-    image: "/contactTeam/priyanshi_khandelwal.jpg",
-    linkedin: "https://www.linkedin.com/in/priyanshi-khandelwal"
+    image: "/contactTeam/RahulAgarwal.jpg",
+    linkedin: "https://www.linkedin.com/in/rahul-agarwal-845636282/"
   },
   {
-    name: "Mr. Vivek Kumar",
+    name: "Ms. Tanvi Sundarkar",
     role: "Finance Co-chair",
-    image: "/contactTeam/vvk.jpg",
-    linkedin: "https://www.linkedin.com/in/vivek-kumar"
+    image: "/contactTeam/tanvi.jpg",
+    linkedin: "https://www.linkedin.com/in/tanvi-sundarkar-b62088280/"
   }
 ];
 

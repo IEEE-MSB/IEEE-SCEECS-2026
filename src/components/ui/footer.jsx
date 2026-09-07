@@ -39,7 +39,7 @@ export function Footer() {
                 className="h-12 md:h-16 object-contain"
               />
               <img
-                src="/logo2026_dark.png"
+                src="/logo2027_dark.png"
                 alt="SCEECS 2027 Logo"
                 className="h-12 md:h-16 object-contain"
               />
