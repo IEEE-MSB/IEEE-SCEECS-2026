@@ -1,5 +1,5 @@
 import { PixelImage } from '../pixel-image';
-
+// order is changing 
 const teamMembers = [
   {
     name: "Dr. Vijay Bhaskar Semwal",
@@ -14,6 +14,12 @@ const teamMembers = [
     membershipNo: "92215569"
   },
   {
+    name: "Ms. Rahul Agarwal",
+    role: "Organizing Co-Chair",
+    image: "/About_Images/RahulAgarwal.jpg",
+    membershipNo: "101833521"
+  },
+  {
     name: "Mr. Ayush Kumar",
     role: "Publication Co-Chair",
     image: "/About_Images/Ayush.jpg",
@@ -24,12 +30,6 @@ const teamMembers = [
     role: "Program Co-Chair",
     image: "/About_Images/prerna.jpeg",
     membershipNo: " 101835115"
-  },
-  {
-    name: "Ms. Rahul Agarwal",
-    role: "Organizing Co-Chair",
-    image: "/About_Images/RahulAgarwal.jpg",
-    membershipNo: "101833521"
   },
   {
     name: "Ms. Tanvi Sundarkar",

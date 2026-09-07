@@ -23,23 +23,23 @@ const HowItWorkTimeline = () => {
                 </div>
             ),
         },
-        {
-            title: "REVIEW",
-            date: "WILL BE INFORMED",
-            content: (
-                <div className="bg-gray-50 rounded-lg p-6">
-                    <p className="text-gray-900 text-lg md:text-xl font-bold mb-3">
-                        Paper is blind reviewed by experts.
-                    </p>
-                    <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                        All submitted papers undergo a rigorous double-blind peer review process conducted by a panel of international experts in the field. The review process evaluates papers based on originality, technical quality, clarity, and relevance to the conference themes. Authors will be informed about the review status and feedback from reviewers.
-                    </p>
-                </div>
-            ),
-        },
+        // {
+        //     title: "REVIEW",
+        //     date: "WILL BE INFORMED",
+        //     content: (
+        //         <div className="bg-gray-50 rounded-lg p-6">
+        //             <p className="text-gray-900 text-lg md:text-xl font-bold mb-3">
+        //                 Paper is blind reviewed by experts.
+        //             </p>
+        //             <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+        //                 All submitted papers undergo a rigorous double-blind peer review process conducted by a panel of international experts in the field. The review process evaluates papers based on originality, technical quality, clarity, and relevance to the conference themes. Authors will be informed about the review status and feedback from reviewers.
+        //             </p>
+        //         </div>
+        //     ),
+        // },
         {
             title: "Acceptance Notification",
-            date: "19 Dec 2026",
+            date: "18 Dec 2026",
             content: (
                 <div className="bg-gray-50 rounded-lg p-6">
                     <p className="text-gray-900 text-lg md:text-xl font-bold mb-3">
