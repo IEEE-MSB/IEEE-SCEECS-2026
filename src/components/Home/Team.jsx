@@ -15,19 +15,19 @@ const teamMembers = [
   },
   {
     name: "Mr. Ayush Kumar",
-    role: "Organizing Co-Chair",
+    role: "Publication Co-Chair",
     image: "/About_Images/Ayush.jpg",
     membershipNo: "101641565"
   },
   {
-    name: "Mr. Rishabh Sonkar",
-    role: "Publication Co-Chair",
-    image: "/About_Images/rishab.jpg",
-    membershipNo: "101878276"
+    name: "Ms. Prerna Chaurasiya",
+    role: "Program Co-Chair",
+    image: "/About_Images/prerna.jpeg",
+    membershipNo: " 101835115"
   },
   {
     name: "Ms. Rahul Agarwal",
-    role: "Program Co-Chair",
+    role: "Organizing Co-Chair",
     image: "/About_Images/RahulAgarwal.jpg",
     membershipNo: "101833521"
   },
