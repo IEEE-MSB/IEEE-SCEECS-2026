@@ -3,6 +3,12 @@ import Hero from '@/components/Hero';
 
 const teamMembers = [
   {
+    name: "Mr. Rahul Agarwal",
+    role: "Organizing Co-chair",
+    image: "/contactTeam/RahulAgarwal.jpg",
+    linkedin: "https://www.linkedin.com/in/rahul-agarwal-845636282/"
+  },
+  {
     name: "Mr. Ayush Kumar",
     role: "Publication Co-chair",
     image: "/contactTeam/Ayush.jpg",
@@ -13,12 +19,6 @@ const teamMembers = [
     role: "Publication Co-chair",
     image: "/contactTeam/prerna.jpeg",
     linkedin: "https://www.linkedin.com/in/prernaaa30/"
-  },
-  {
-    name: "Mr. Rahul Agarwal",
-    role: "Organizing Co-chair",
-    image: "/contactTeam/RahulAgarwal.jpg",
-    linkedin: "https://www.linkedin.com/in/rahul-agarwal-845636282/"
   },
   {
     name: "Ms. Tanvi Sundarkar",
