@@ -14,10 +14,20 @@ import ScheduleSection from "../components/Home/ScheduleSection";
 
 
 function Home() {
+  // const button = [
+  //   { text: "Visit IEEE-MSB", link: "https://ieee-msb-2025.vercel.app" },
+  //   { text: "Conference details", link: "/docs/CALL FOR PAPER 1.png" },
+  // ]
   const button = [
-    { text: "Visit IEEE-MSB", link: "ieee-msb-2025.vercel.app" },
-    { text: "Conference details", link: "/docs/CALL FOR PAPER 1.png" },
-  ]
+  {
+    text: "Visit IEEE-MSB",
+    link: "https://ieee-msb.ieeenitb.com",
+  },
+  {
+    text: "Conference details",
+    link: "/docs/CALL FOR PAPER.png",
+  },
+];
   return (
     <div>
       <Hero src="/background/conference.jpg" content="IEEE SCEECS 2027" dates="30th Jan - 31st Jan 2027, Bhopal, India." buttonContent={button} />

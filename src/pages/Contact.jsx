@@ -4,19 +4,19 @@ import Hero from '@/components/Hero';
 const teamMembers = [
   {
     name: "Mr. Ayush Kumar",
-    role: "Organizing Co-chair",
+    role: "Publication Co-chair",
     image: "/contactTeam/Ayush.jpg",
     linkedin: "https://www.linkedin.com/in/ayush-kumar-manit-bhopal/"
   },
   {
-    name: "Ms. Rishabh Sonkar",
+    name: "Ms. Prerna Chaurasiya",
     role: "Publication Co-chair",
-    image: "/contactTeam/rishabh.jpg",
-    linkedin: "https://www.linkedin.com/in/rishabhmzp/"
+    image: "/contactTeam/prerna.jpeg",
+    linkedin: "https://www.linkedin.com/in/prernaaa30/"
   },
   {
-    name: "Ms. Rahul Agarwal",
-    role: "Program Co-chair",
+    name: "Mr. Rahul Agarwal",
+    role: "Organizing Co-chair",
     image: "/contactTeam/RahulAgarwal.jpg",
     linkedin: "https://www.linkedin.com/in/rahul-agarwal-845636282/"
   },
