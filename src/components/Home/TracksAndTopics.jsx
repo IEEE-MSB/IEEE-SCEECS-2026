@@ -81,11 +81,11 @@ const tracks = [
 
 function TracksAndTopics() {
   return (
-    <div className="min-h-screen bg-white py-16 px-4 md:px-8">
+    <div id="cfp" className="min-h-screen bg-white py-16 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <div className="flex items-center justify-center gap-4 mb-8">
+          <div className="flex items-center justify-center gap-4 mb-6">
             <div className="bg-purple-500 rounded-full p-3 shadow-lg">
               <Cpu className="w-6 h-6 text-white" />
             </div>
@@ -96,12 +96,17 @@ function TracksAndTopics() {
               <Code2 className="w-6 h-6 text-white" />
             </div>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-4" style={{ color: '#9333ea' }}>
+          <p className="text-pink-600 text-sm md:text-base font-bold uppercase tracking-wider mb-2">
+            Call For Papers (CFP)
+          </p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4" style={{ color: '#9333ea' }}>
             Tracks and Topics
           </h1>
           <p className="text-gray-700 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
             ORIGINAL AND UNPUBLISHED RESEARCH PAPERS ARE INVITED FOR PRESENTATION ON THE FOLLOWING THEME AREAS, BUT NOT RESTRICTED TO THE FOLLOWING VERTICALS.
-
+          </p>
+          <p className="text-purple-700 text-sm md:text-base font-semibold mt-3">
+            Conference Dates: 30th Jan – 31st Jan 2027 | Bhopal, India
           </p>
         </div>
 
