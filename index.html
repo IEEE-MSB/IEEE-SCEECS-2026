@@ -26,7 +26,25 @@
 </head>
 
 <body>
-  <div id="root"></div>
+  <!-- Microsoft CMT Acknowledgment (Visible in Page Source for Automated Verification and Crawlers) -->
+  <noscript>
+    <div style="padding: 15px; text-align: center; font-size: 14px; background: #f9fafb; color: #374151;">
+      The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+    </div>
+  </noscript>
+
+  <div id="root">
+    <!-- Server/Crawler Static Fallback -->
+    <div style="padding: 12px; text-align: center; font-size: 13px; color: #4b5563;">
+      The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+    </div>
+  </div>
+
+  <!-- Static Plain Text Container for CMT Scrapers -->
+  <div id="cmt-acknowledgment-raw" style="display: none;" aria-hidden="true">
+    The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+  </div>
+
   <script type="module" src="/src/main.jsx"></script>
 </body>
 
