@@ -252,11 +252,11 @@ function PaperSubmission() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Verify & Track</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Check your confirmation email for your paper ID. You can modify your submission anytime until the deadline (20 Nov 2026, extended to 25 Nov 2026).
+                  Check your confirmation email for your paper ID. You can modify your submission anytime until the deadline (20 Nov 2026).
                 </p>
               </div>
               <span className="text-emerald-700 font-semibold text-sm">
-                Deadline: 20 Nov (Ext. 25 Nov)
+                Deadline: 20 Nov 2026
               </span>
             </div>
           </div>
@@ -265,44 +265,46 @@ function PaperSubmission() {
         {/* ============================================================== */}
         {/* SECTION 4: WHERE TO SUBMIT                                      */}
         {/* ============================================================== */}
-        <section id="where-to-submit" className="scroll-mt-20">
-          <Card variant="neubrutalism" className="bg-blue-100 p-8 md:p-12 !border-4 !border-black">
-            <div className="max-w-4xl mx-auto text-center space-y-6">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-600 text-white border-4 border-black shadow">
-                <Upload className="w-8 h-8" />
+        <section id="where-to-submit" className="scroll-mt-20 max-w-2xl mx-auto w-full">
+          <Card variant="neubrutalism" className="bg-blue-50 p-6 md:p-8 !border-4 !border-black">
+            <div className="text-center space-y-4">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-600 text-white border-2 border-black shadow-sm">
+                <Upload className="w-6 h-6" />
               </div>
-              <p className="text-blue-700 font-bold uppercase tracking-wider text-sm md:text-base">
-                Submission Portal
-              </p>
-              <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
-                Where to Submit
-              </h2>
-              <p className="text-gray-700 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
-                All submissions for <strong>IEEE SCEECS 2027</strong> must be submitted electronically through the Microsoft Conference Management Toolkit (CMT).
-              </p>
-
-              {/* Status Notice */}
-              <div className="p-4 bg-emerald-50 border-2 border-emerald-500 rounded-lg inline-block text-left max-w-xl mx-auto">
-                <p className="text-emerald-900 font-medium text-sm md:text-base">
-                  🟢 <strong>Submissions Open:</strong> Microsoft CMT submission portal is now active for IEEE SCEECS 2027.
+              
+              <div>
+                <p className="text-blue-700 font-bold uppercase tracking-wider text-xs">
+                  Submission Portal
+                </p>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-1">
+                  Where to Submit
+                </h2>
+                <p className="text-gray-600 text-sm mt-2 max-w-lg mx-auto">
+                  All submissions for <strong>IEEE SCEECS 2027</strong> must be submitted electronically through the Microsoft Conference Management Toolkit (CMT).
                 </p>
               </div>
 
-              {/* Strict Notice: No Email Submissions */}
-              <div className="p-4 bg-red-50 border-2 border-red-400 rounded-lg max-w-xl mx-auto text-red-800 text-xs md:text-sm font-semibold flex items-center gap-2 justify-center">
-                <AlertTriangle className="w-5 h-5 flex-shrink-0 text-red-600" />
-                <span>Notice: Papers submitted via email or any medium other than Microsoft CMT will NOT be considered.</span>
+              {/* Status & Strict Notice Badges */}
+              <div className="space-y-2 max-w-lg mx-auto text-xs md:text-sm">
+                <div className="py-2.5 px-4 bg-emerald-50 border border-emerald-400 rounded-md text-emerald-900 font-medium flex items-center justify-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 flex-shrink-0 text-emerald-600" />
+                  <span><strong>Submissions Open:</strong> Microsoft CMT portal is now active for IEEE SCEECS 2027.</span>
+                </div>
+                <div className="py-2.5 px-4 bg-red-50 border border-red-300 rounded-md text-red-800 font-medium flex items-center justify-center gap-2">
+                  <AlertTriangle className="w-4 h-4 flex-shrink-0 text-red-600" />
+                  <span>Notice: Papers submitted via email will NOT be considered.</span>
+                </div>
               </div>
 
-              <div>
+              <div className="pt-2">
                 <a 
                   href="https://cmt3.research.microsoft.com/SCEECS2027"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-8 rounded-lg border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-200 text-base md:text-lg"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-6 rounded-lg border-2 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 transition-all duration-200 text-sm md:text-base"
                 >
                   <span>Submit Paper via Microsoft CMT</span>
-                  <ExternalLink className="w-5 h-5" />
+                  <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
             </div>

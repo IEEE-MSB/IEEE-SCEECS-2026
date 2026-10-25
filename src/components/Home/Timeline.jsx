@@ -51,24 +51,10 @@ const HowItWorkTimeline = () => {
             content: (
                 <div className="bg-gray-50 rounded-lg p-6">
                     <p className="text-gray-900 text-lg md:text-xl font-bold mb-2">
-                        Full Paper Submission Timeline
+                        Full Paper Submission Deadline
                     </p>
                     <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                        Primary deadline for full research manuscript submissions via Microsoft CMT.
-                    </p>
-                </div>
-            ),
-        },
-        {
-            title: "Deadline Extension",
-            date: "25 Nov 2026",
-            content: (
-                <div className="bg-gray-50 rounded-lg p-6">
-                    <p className="text-gray-900 text-lg md:text-xl font-bold mb-2">
-                        Submission Deadline Extension
-                    </p>
-                    <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                        Final extended hard deadline for submitting research manuscripts on Microsoft CMT (until 23:59 IST).
+                        Deadline for full research manuscript submissions via Microsoft CMT (until 23:59 IST).
                     </p>
                 </div>
             ),
