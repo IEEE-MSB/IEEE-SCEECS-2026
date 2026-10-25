@@ -222,15 +222,26 @@ function PaperSubmission() {
                   Log in to Microsoft CMT, select your track, input title, abstract, keywords, and author details, then upload your manuscript PDF.
                 </p>
               </div>
-              <a
-                href="https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-pink-600 hover:text-pink-800 font-semibold text-sm underline"
-              >
-                <span>Author Submission Guide</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
+              <div className="flex flex-col gap-1.5">
+                <a
+                  href="https://cmt3.research.microsoft.com/SCEECS2027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-purple-600 hover:text-purple-800 font-semibold text-sm underline"
+                >
+                  <span>Go to SCEECS 2027 CMT</span>
+                  <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+                <a
+                  href="https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-pink-600 hover:text-pink-800 font-semibold text-sm underline"
+                >
+                  <span>Author Submission Guide</span>
+                  <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+              </div>
             </div>
 
             {/* Step 4 */}
@@ -241,11 +252,11 @@ function PaperSubmission() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Verify & Track</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Check your confirmation email for your paper ID. You can modify your submission anytime until the strict deadline (30 Nov 2026).
+                  Check your confirmation email for your paper ID. You can modify your submission anytime until the deadline (20 Nov 2026, extended to 25 Nov 2026).
                 </p>
               </div>
               <span className="text-emerald-700 font-semibold text-sm">
-                Deadline: 30 Nov 2026
+                Deadline: 20 Nov (Ext. 25 Nov)
               </span>
             </div>
           </div>
@@ -271,9 +282,9 @@ function PaperSubmission() {
               </p>
 
               {/* Status Notice */}
-              <div className="p-4 bg-white border-2 border-black rounded-lg inline-block text-left max-w-xl mx-auto">
-                <p className="text-gray-800 font-medium text-sm md:text-base">
-                  📢 <strong>Status:</strong> Microsoft CMT submission link will be coming shortly. Please prepare your manuscripts according to the author and submission guidelines.
+              <div className="p-4 bg-emerald-50 border-2 border-emerald-500 rounded-lg inline-block text-left max-w-xl mx-auto">
+                <p className="text-emerald-900 font-medium text-sm md:text-base">
+                  🟢 <strong>Submissions Open:</strong> Microsoft CMT submission portal is now active for IEEE SCEECS 2027.
                 </p>
               </div>
 
@@ -284,12 +295,15 @@ function PaperSubmission() {
               </div>
 
               <div>
-                <button 
-                  disabled
-                  className="bg-gray-400 cursor-not-allowed text-white font-bold py-3.5 px-8 rounded-lg border-4 border-black shadow text-base md:text-lg"
+                <a 
+                  href="https://cmt3.research.microsoft.com/SCEECS2027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-8 rounded-lg border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all duration-200 text-base md:text-lg"
                 >
-                  CMT Submission Portal (Coming Shortly)
-                </button>
+                  <span>Submit Paper via Microsoft CMT</span>
+                  <ExternalLink className="w-5 h-5" />
+                </a>
               </div>
             </div>
           </Card>

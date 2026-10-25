@@ -22,6 +22,7 @@ const footerLinks = [
       { id: 10, title: "Submission Guidelines", url: "/callforpaper#submission-guidelines" },
       { id: 11, title: "How to Submit", url: "/callforpaper#how-to-submit" },
       { id: 12, title: "Where to Submit", url: "/callforpaper#where-to-submit" },
+      { id: 13, title: "CMT Submission Portal", url: "https://cmt3.research.microsoft.com/SCEECS2027" },
     ],
   },
   {
