@@ -1,7 +1,7 @@
 import React from 'react'
 import { Timeline } from '../ui/timeline';
 
-const HowItWorkTimeline = () => {
+const HowItWorkTimeline = ({ detailLink = "/callforpaper" }) => {
     const data = [
         {
             title: "Release of Call for Papers",
@@ -172,7 +172,7 @@ const HowItWorkTimeline = () => {
                     Conference Dates: <span className="text-purple-700 font-bold">30th Jan – 31st Jan 2027</span> | MANIT Bhopal, India
                 </p>
             </div>
-            <Timeline data={data} />
+            <Timeline data={data} detailLink={detailLink} />
         </section>
     )
 }

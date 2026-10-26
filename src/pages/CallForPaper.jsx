@@ -33,7 +33,7 @@ function CallForPaper() {
         </div>
       </div>
 
-      <HowItWorkTimeline />
+      <HowItWorkTimeline detailLink="#author-guidelines" />
       <TracksAndTopics />
       <PaperSubmission />
     </div>

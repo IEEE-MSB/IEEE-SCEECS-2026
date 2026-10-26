@@ -1,8 +1,10 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Timeline = ({
-  data
+  data,
+  detailLink = "/callforpaper"
 }) => {
   const dotColors = ['bg-purple-500', 'bg-pink-500', 'bg-blue-400', 'bg-purple-500', 'bg-pink-500', 'bg-blue-400'];
   const ref = useRef(null);
@@ -96,9 +98,12 @@ export const Timeline = ({
       </div>
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10 pb-20">
         <div className="flex justify-center">
-          <button className="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-lg">
+          <Link
+            to={detailLink}
+            className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-lg"
+          >
             Get More Details
-          </button>
+          </Link>
         </div>
       </div>
     </div>

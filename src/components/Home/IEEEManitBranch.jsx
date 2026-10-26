@@ -52,9 +52,15 @@ const IEEEManitBranch = () => {
 
           {/* Read More Button */}
           <div>
-            <button className="bg-pink-600 hover:bg-pink-700 text-white text-xs sm:text-sm md:text-base font-semibold uppercase py-2 px-4 sm:py-3 sm:px-6 md:px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
-              READ MORE
-            </button>
+            <a
+              href="https://ieee-msb.ieeenitb.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-pink-600 hover:bg-pink-700 text-white text-xs sm:text-sm md:text-base font-semibold uppercase py-2 px-4 sm:py-3 sm:px-6 md:px-8 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
+                READ MORE
+              </button>
+            </a>
           </div>
         </div>
 
