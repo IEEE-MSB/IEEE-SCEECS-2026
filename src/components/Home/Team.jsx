@@ -7,6 +7,7 @@ const teamMembers = [
     image: "/About_Images/VijayBhaskarSemwal.jpg",
     membershipNo: null
   },
+  // 
   {
     name: "Dr. Priyanka Paliwal",
     role: "Program Chair",
