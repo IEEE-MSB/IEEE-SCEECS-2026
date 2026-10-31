@@ -11,8 +11,13 @@ const HowItWorkTimeline = () => {
                     <p className="text-gray-900 text-lg md:text-xl font-bold mb-4">
                         Submit paper on Microsoft CMT.
                     </p>
-                    <a href="#" className="text-pink-500 hover:text-pink-600 text-sm md:text-base mb-4 inline-block">
-                        here
+                    <a
+                        href="https://cmt3.research.microsoft.com/SCEECS2027"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors"
+                    >
+                        Submit Now
                     </a>
                     <p className="text-gray-800 font-semibold text-base md:text-lg mb-2">
                         Acknowledgement

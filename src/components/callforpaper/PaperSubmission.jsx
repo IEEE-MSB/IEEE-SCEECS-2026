@@ -56,9 +56,14 @@ function PaperSubmission() {
             </div>
 
             <div className="mt-8">
-              <button className="w-full md:w-auto bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border-4 border-black">
-                Submit Via Microsoft CMT
-              </button>
+              <a
+                href="https://cmt3.research.microsoft.com/SCEECS2027"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full md:w-auto bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border-4 border-black text-center"
+              >
+                Submit Now
+              </a>
             </div>
           </Card>
 
@@ -111,9 +116,14 @@ function PaperSubmission() {
               </div>
 
               <div className="mt-6">
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border-4 border-black">
-                  Submit Via Microsoft CMT
-                </button>
+                <a
+                  href="https://cmt3.research.microsoft.com/SCEECS2027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border-4 border-black text-center"
+                >
+                  Submit Now
+                </a>
               </div>
             </Card>
           </div>
