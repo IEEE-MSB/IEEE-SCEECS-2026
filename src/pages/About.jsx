@@ -20,7 +20,7 @@ const features = [
   },
   {
     icon: Users,
-    title: "Guest Lectures",
+    title: "Past Speakers",
     description: "An experience that will enlighten your mind with innovations and creativity.",
     bgColor: "bg-white",
     iconColor: "text-orange-600",

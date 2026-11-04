@@ -25,7 +25,7 @@ const defaultMenuItems = [
   },
   {
     id: 4,
-    title: "Guest Lecturers",
+    title: "Past Speakers",
     url: "/guestlecturers",
     icon: <Users className="w-5 h-5" />
   },
@@ -286,4 +286,3 @@ function ScrollNavigationMenu({
 }
 
 export default ScrollNavigationMenu;
-

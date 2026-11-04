@@ -10,9 +10,9 @@ const guestImages = [
   { src: "/guest/kamran_ali.jpeg", alt: "Kamran Ali" },
   { src: "/guest/love_babbar.jpg", alt: "Love Babbar" },
   { src: "/guest/lakshya_kumar.jpeg", alt: "Lakshya Kumar" },
-  { src: "/guest/02.jpg", alt: "Guest Lecturer" },
-  { src: "/guest/03.jpg", alt: "Guest Lecturer" },
-  { src: "/guest/04.jpg", alt: "Guest Lecturer" },
+  { src: "/guest/02.jpg", alt: "Past Speaker" },
+  { src: "/guest/03.jpg", alt: "Past Speaker" },
+  { src: "/guest/04.jpg", alt: "Past Speaker" },
 ];
 
 // Conference Images
@@ -119,7 +119,7 @@ const allImages = [...conferenceImages, ...workshopImages, ...teamImages, ...gue
 
 const tabs = [
   { id: 'all', label: 'All', images: allImages },
-  { id: 'guests', label: 'Guest Lecturers', images: guestImages },
+  { id: 'guests', label: 'Past Speakers', images: guestImages },
   { id: 'conference', label: 'Conference', images: conferenceImages },
   { id: 'workshop', label: 'Workshop', images: workshopImages },
   { id: 'team', label: 'Team', images: teamImages },

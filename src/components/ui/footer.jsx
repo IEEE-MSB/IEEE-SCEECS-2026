@@ -8,7 +8,7 @@ const footerLinks = [
       { id: 1, title: "Home", url: "/" },
       { id: 2, title: "About", url: "/about" },
       { id: 3, title: "Call for Paper", url: "/callforpaper" },
-      { id: 4, title: "Guest Lecturers", url: "/guestlecturers" },
+      { id: 4, title: "Past Speakers", url: "/guestlecturers" },
       { id: 5, title: "Gallery", url: "/gallery" },
       { id: 6, title: "Contact", url: "/contact" },
     ],
