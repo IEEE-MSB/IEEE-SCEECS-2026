@@ -1,8 +1,10 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Timeline = ({
-  data
+  data,
+  detailLink = "/callforpaper"
 }) => {
   const dotColors = ['bg-purple-500', 'bg-pink-500', 'bg-blue-400', 'bg-purple-500', 'bg-pink-500', 'bg-blue-400'];
   const ref = useRef(null);
@@ -31,8 +33,8 @@ export const Timeline = ({
       <div className="max-w-7xl mx-auto pt-20 pb-0 px-4 md:px-8 lg:px-10">
         <div className="text-center mb-0">
           <h2 className="text-lg md:text-2xl font-semibold text-purple-600 mb-2">
-            SCEECS'26 Call For Paper
-        </h2>
+            SCEECS'27 Call For Paper
+          </h2>
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
             How it Works
           </h1>
@@ -50,8 +52,8 @@ export const Timeline = ({
               </div>
               <div className="hidden md:block md:pl-20">
                 <h3 className="text-xl md:text-3xl font-bold text-gray-900 mb-1">
-                {item.title}
-              </h3>
+                  {item.title}
+                </h3>
                 {item.date && (
                   <p className="text-pink-500 text-sm md:text-base font-medium">
                     {item.date}
@@ -63,8 +65,8 @@ export const Timeline = ({
             <div className="relative pl-20 pr-4 md:pl-4 w-full">
               <div className="md:hidden block mb-4">
                 <h3 className="text-2xl text-left font-bold text-gray-900 mb-1">
-                {item.title}
-              </h3>
+                  {item.title}
+                </h3>
                 {item.date && (
                   <p className="text-pink-500 text-sm font-medium">
                     {item.date}
@@ -96,9 +98,12 @@ export const Timeline = ({
       </div>
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10 pb-20">
         <div className="flex justify-center">
-          <button className="bg-blue-400 hover:bg-blue-500 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-lg">
+          <Link
+            to={detailLink}
+            className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-lg"
+          >
             Get More Details
-          </button>
+          </Link>
         </div>
       </div>
     </div>
