@@ -95,7 +95,7 @@ const GallerySection = ({ images }) => {
         <div
           key={index}
           ref={(el) => (imageRefs.current[index] = el)}
-          className="relative flex justify-center items-center w-full group cursor-pointer"
+          className="relative flex justify-center items-center w-full group"
         >
           <div className="relative rounded-xl overflow-hidden w-full aspect-[5/4] shadow-lg hover:shadow-xl transition-shadow duration-300">
             <PixelImage
