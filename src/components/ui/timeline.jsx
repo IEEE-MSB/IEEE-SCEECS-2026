@@ -98,12 +98,14 @@ export const Timeline = ({
       </div>
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10 pb-20">
         <div className="flex justify-center">
-          <Link
-            to={detailLink}
+          <a
+            href="https://cmt3.research.microsoft.com/SCEECS2027"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-lg"
           >
-            Get More Details
-          </Link>
+            Submit Now
+          </a>
         </div>
       </div>
     </div>

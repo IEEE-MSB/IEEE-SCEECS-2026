@@ -11,47 +11,16 @@ const HowItWorkTimeline = ({ detailLink = "/callforpaper" }) => {
                     <p className="text-gray-900 text-lg md:text-xl font-bold mb-2">
                         Official Call for Papers Released
                     </p>
-                    <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                        Call for Papers announced and paper submissions open via the Microsoft CMT portal for IEEE SCEECS 2027.
-                    </p>
-                </div>
-            ),
-        },
-        {
-            title: "Call for Reviewers",
-            date: "1st Week of Nov 2026",
-            content: (
-                <div className="bg-gray-50 rounded-lg p-6">
-                    <p className="text-gray-900 text-lg md:text-xl font-bold mb-2">
-                        Release of Call for Reviewers
-                    </p>
-                    <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                        Invitations and call for expert peer reviewers and technical program committee members initiated.
-                    </p>
-                </div>
-            ),
-        },
-        {
-            title: "Initial Reviews Start",
-            date: "1st Week of Nov 2026",
-            content: (
-                <div className="bg-gray-50 rounded-lg p-6">
-                    <p className="text-gray-900 text-lg md:text-xl font-bold mb-2">
-                        Peer Review Process Commences
-                    </p>
-                    <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                        Initial rounds of rigorous double-blind peer review commence for early-submitted research manuscripts.
-                    </p>
-                </div>
-            ),
-        },
-        {
-            title: "Paper Submission Deadline",
-            date: "20 Nov 2026",
-            content: (
-                <div className="bg-gray-50 rounded-lg p-6">
-                    <p className="text-gray-900 text-lg md:text-xl font-bold mb-2">
-                        Full Paper Submission Deadline
+                    <a
+                        href="https://cmt3.research.microsoft.com/SCEECS2027"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-5 rounded-lg transition-colors"
+                    >
+                        Submit Now
+                    </a>
+                    <p className="text-gray-800 font-semibold text-base md:text-lg mb-2">
+                        Acknowledgement
                     </p>
                     <p className="text-gray-700 text-sm md:text-base leading-relaxed">
                         Deadline for full research manuscript submissions via Microsoft CMT (until 23:59 IST).

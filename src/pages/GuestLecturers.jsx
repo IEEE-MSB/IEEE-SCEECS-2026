@@ -2,11 +2,15 @@ import { PixelImage } from '../components/pixel-image';
 import Hero from '@/components/Hero';
 import { ExternalLink } from 'lucide-react';
 
+
 // All guest lecturer images - you can add name, title, and link as needed
 const guestLecturers = [
+    { name: "Keerti purswani", title: "Founder of Educosys", image: "/guest/Keerti.jpeg", link: "https://www.linkedin.com/in/keertipurswani?originalSubdomain=in" },
+    { name: "Aditi Gupta", title: "Founder of TechTip24", image: "/guest/Aditi.jpeg", link: "https://www.linkedin.com/in/aditi-gupta-09b0a91b2/?originalSubdomain=in" },
     { name: "Striver", title: "Founder of takeUforward", image: "/guest/striver.jpeg", link: "https://www.linkedin.com/in/rajstriver/?originalSubdomain=in" },
     { name: "Sunchit Dudeja", title: "SDE | Adobe", image: "/guest/sunchit_dudeja.jpeg", link: "https://www.linkedin.com/in/sunchitdudeja/?original_referer=https%3A%2F%2Fwww%2Ebing%2Ecom%2F&originalSubdomain=in" },
     { name: "Kamran Ali", title: "Sr. Engineering Manager | Atlassian", image: "/guest/kamran_ali.jpeg", link: "https://www.linkedin.com/in/systemdesignengineer/?originalSubdomain=in" },
+    { name: "Raghav Garg", title: "Dsa Educator at PW", image: "/guest/Raghav.jpeg", link: "https://www.linkedin.com/in/raghav-garg-262a9b1b4/" },
     { name: "Love Babbar", title: "Founder of Codehelp", image: "/guest/love_babbar.jpg", link: "https://www.linkedin.com/in/love-babbar-38ab2887/?originalSubdomain=in" },
     { name: "Lakshya Kumar", title: "Instructor at Codehelp", image: "/guest/lakshya_kumar.jpeg", link: "https://www.linkedin.com/in/lakshayk12/?originalSubdomain=in" },
     //   { name: "Speaker 01", title: "Guest Speaker", image: "/guest/01.jpg", link: null },
@@ -40,14 +44,14 @@ const guestLecturers = [
 function GuestLecturers() {
     return (
         <>
-            <Hero src="/background/10.jpg" content="Guest Lecture" />
+            <Hero src="/background/10.jpg" content="Past Speakers" />
             <div className="min-h-screen bg-white py-16 px-4 md:px-8 mt-12">
                 <div className="max-w-7xl mx-auto">
                     {/* Header Section */}
                     <div className="text-center mb-12">
                         <p className="text-purple-600 text-lg font-medium mb-2">Welcome to SCEECS'27</p>
                         <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
-                            Guest Lecturers
+                            Past Speakers
                         </h1>
                         <div className="flex justify-center mb-6">
                             <svg
