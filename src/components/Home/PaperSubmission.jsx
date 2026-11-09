@@ -95,7 +95,7 @@ function PaperSubmission() {
                 
                 <div className="space-y-4 text-gray-700 text-xs sm:text-sm md:text-base leading-relaxed">
                   <p>
-                    Papers for both oral and poster presentations should conform to the IEEE format and specifications. All submissions must be in English only. Authors are invited to submit full paper (Maximum 6 pages, double-column A4) as PDF using the IEEE templates.
+                    Papers for both oral and poster presentations should conform to the IEEE format and specifications. All submissions must be in English only. Authors are invited to submit full paper as PDF using the IEEE templates.
                   </p>
                 </div>
               </div>
