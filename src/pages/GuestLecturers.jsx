@@ -2,7 +2,6 @@ import { PixelImage } from '../components/pixel-image';
 import Hero from '@/components/Hero';
 import { ExternalLink } from 'lucide-react';
 
-
 // All guest lecturer images - you can add name, title, and link as needed
 const guestLecturers = [
     { name: "Keerti purswani", title: "Founder of Educosys", image: "/guest/Keerti.jpeg", link: "https://www.linkedin.com/in/keertipurswani?originalSubdomain=in" },
@@ -13,8 +12,6 @@ const guestLecturers = [
     { name: "Raghav Garg", title: "Dsa Educator at PW", image: "/guest/Raghav.jpeg", link: "https://www.linkedin.com/in/raghav-garg-262a9b1b4/" },
     { name: "Love Babbar", title: "Founder of Codehelp", image: "/guest/love_babbar.jpg", link: "https://www.linkedin.com/in/love-babbar-38ab2887/?originalSubdomain=in" },
     { name: "Lakshya Kumar", title: "Instructor at Codehelp", image: "/guest/lakshya_kumar.jpeg", link: "https://www.linkedin.com/in/lakshayk12/?originalSubdomain=in" },
-    //   { name: "Speaker 01", title: "Guest Speaker", image: "/guest/01.jpg", link: null },
-
     { name: "Pushyamitra Bhargav", title: "Additional Advocate General, Indore Bench (MP Govt)", image: "/guest/gl1.jpg", link: "https://www.linkedin.com/in/pushyamitra-bhargav-1987331b2/" },
     { name: "Subhash Khare", title: "Vice President of Wipro", image: "/guest/gl2.jpg", link: "https://www.linkedin.com/in/subhash-khare-ab387b18/" },
     { name: "Sunil K. Prasad", title: "Chief Technology Officer at Leidos", image: "/guest/gl3.jpg", link: "https://www.linkedin.com/in/sunil-k-prasad-444a06/" },
@@ -38,24 +35,23 @@ const guestLecturers = [
     { name: "Dr. ALOKNATH DE", title: "CTO of Samsung India Software Operations", image: "/guest/18.jpg", link: "https://www.linkedin.com/in/drdescitechlab" },
     { name: "Mr. N.K. GOYAL", title: "Senior Telecom Professional", image: "/guest/19.jpeg", link: "https://www.linkedin.com/in/nkgoyals" },
     { name: "JEFF LIEBERMAN", title: "Roboticist, Television Presenter", image: "/guest/20.jpg", link: "https://en.wikipedia.org/wiki/Jeff_Lieberman_(artist_engineer)" },
-    //   { name: "Speaker 21", title: "Guest Speaker", image: "/guest/21.jpg", link: null },
 ];
 
 function GuestLecturers() {
     return (
         <>
             <Hero src="/background/10.jpg" content="Past Speakers" />
-            <div className="min-h-screen bg-white py-16 px-4 md:px-8 mt-12">
+            <div className="min-h-screen bg-white py-8 sm:py-12 md:py-16 px-4 md:px-8 mt-4 sm:mt-8">
                 <div className="max-w-7xl mx-auto">
                     {/* Header Section */}
-                    <div className="text-center mb-12">
-                        <p className="text-purple-600 text-lg font-medium mb-2">Welcome to SCEECS'27</p>
-                        <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
+                    <div className="text-center mb-8 sm:mb-12">
+                        <p className="text-purple-600 text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider mb-2">Welcome to SCEECS'27</p>
+                        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">
                             Past Speakers
                         </h1>
-                        <div className="flex justify-center mb-6">
+                        <div className="flex justify-center mb-4 sm:mb-6">
                             <svg
-                                className="w-32 h-2 text-pink-400"
+                                className="w-24 sm:w-32 h-2 text-pink-400"
                                 viewBox="0 0 128 4"
                                 fill="none"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -71,14 +67,14 @@ function GuestLecturers() {
                     </div>
 
                     {/* Guest Lecturers Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 mt-12">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 sm:gap-6 md:gap-8 mt-8 sm:mt-12">
                         {guestLecturers.map((lecturer, index) => (
                             <div
                                 key={index}
-                                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-200"
+                                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-200 flex flex-col justify-between"
                             >
                                 {/* Image Section */}
-                                <div className="relative w-full h-64 md:h-72 overflow-hidden bg-gray-100">
+                                <div className="relative w-full h-56 sm:h-64 md:h-72 overflow-hidden bg-gray-100">
                                     <PixelImage
                                         src={lecturer.image}
                                         grid="6x4"
@@ -92,25 +88,29 @@ function GuestLecturers() {
                                 </div>
 
                                 {/* Content Section */}
-                                <div className="p-6">
-                                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
-                                        {lecturer.name}
-                                    </h3>
-                                    <p className="text-purple-600 font-semibold text-sm md:text-base mb-4">
-                                        {lecturer.title}
-                                    </p>
+                                <div className="p-4 sm:p-6 flex flex-col justify-between flex-grow">
+                                    <div>
+                                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-1 leading-snug">
+                                            {lecturer.name}
+                                        </h3>
+                                        <p className="text-purple-600 font-semibold text-xs sm:text-sm md:text-base mb-4">
+                                            {lecturer.title}
+                                        </p>
+                                    </div>
 
                                     {/* Link Section */}
                                     {lecturer.link && (
-                                        <a
-                                            href={lecturer.link}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-sm w-full"
-                                        >
-                                            <ExternalLink className="w-4 h-4" />
-                                            Know More
-                                        </a>
+                                        <div className="pt-2">
+                                            <a
+                                                href={lecturer.link}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-xs sm:text-sm w-full"
+                                            >
+                                                <ExternalLink className="w-4 h-4" />
+                                                <span>Know More</span>
+                                            </a>
+                                        </div>
                                     )}
                                 </div>
                             </div>
