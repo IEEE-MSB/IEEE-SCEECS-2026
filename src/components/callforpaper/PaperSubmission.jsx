@@ -89,7 +89,8 @@ function PaperSubmission() {
                 <div className="mt-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">IEEE PAPER TEMPLATE</h3>
                   <a 
-                    href="#" 
+                    href="/docs/SCEECS'27-Conference-Template.docx"
+                    download="SCEECS'27-Conference-Template.docx"
                     className="inline-flex items-center gap-2 text-pink-600 hover:text-pink-700 font-semibold underline"
                   >
                     <LinkIcon className="w-5 h-5" />

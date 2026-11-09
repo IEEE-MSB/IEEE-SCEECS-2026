@@ -95,10 +95,14 @@ function PaperSubmission() {
                 
                 <div className="mt-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">IEEE PAPER TEMPLATE</h3>
-                  <button className="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border-2 border-black flex items-center justify-center gap-2">
+                  <a
+                    href="/docs/SCEECS'27-Conference-Template.docx"
+                    download="SCEECS'27-Conference-Template.docx"
+                    className="w-full bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 border-2 border-black flex items-center justify-center gap-2"
+                  >
                     <LinkIcon className="w-5 h-5" />
                     Download IEEE Template
-                  </button>
+                  </a>
                 </div>
               </div>
             </Card>
