@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = ({ src, alt = "Hero Image", content, dates, buttonContent }) => {
     return (
         <div className='w-full bg-[#090822] relative'>
-            <div className='relative w-full overflow-hidden flex flex-col justify-center min-h-[260px] sm:min-h-[320px] md:min-h-[500px] md:h-[80vh] lg:h-[85vh] xl:h-[90vh] py-10 sm:py-14 md:py-0'>
+            <div className='relative w-full overflow-hidden flex flex-col justify-center min-h-[340px] sm:min-h-[380px] md:min-h-[520px] md:h-[80vh] lg:h-[85vh] xl:h-[90vh] pt-24 pb-14 sm:pt-28 sm:pb-16 md:pt-24 md:pb-12'>
                 {/* Background Image - absolute inset-0 guarantees full coverage with no seams or cutoffs */}
                 <img
                     src={src}
@@ -15,7 +15,7 @@ const Hero = ({ src, alt = "Hero Image", content, dates, buttonContent }) => {
 
                 {/* Content - normal flow to adapt smoothly to content size */}
                 {content && (
-                    <div className='relative z-30 flex flex-col justify-center items-start px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 max-w-7xl pb-8 sm:pb-12 md:pb-0'>
+                    <div className='relative z-30 flex flex-col justify-center items-start px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 max-w-7xl'>
                         <div className='text-white max-w-2xl sm:max-w-3xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight'>
                             {content}
                         </div>
