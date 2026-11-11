@@ -13,7 +13,7 @@ const speakers = [
     title: "Sunchit Dudeja",
     step: "Expert Speaker",
     content: "Renowned expert in technology and innovation, bringing years of industry experience and cutting-edge insights to inspire the next generation of engineers and researchers.",
-    image: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794368029/sunchit_dudeja_rrfp94.jpg"
+    image: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794383522/guest/sunchit_dudeja.jpg"
   },
   {
     title: "Kamran Ali",
@@ -25,7 +25,7 @@ const speakers = [
     title: "Many More",
     step: "Distinguished Speakers",
     content: "Join us for an exciting lineup of distinguished speakers and industry leaders who will share their expertise and insights at SCEECS 2027.",
-    image: cloudinaryImage("lakshya_kumar.jpeg")
+    image: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794383505/guest/lakshya_kumar.jpg"
   }
 ];
 

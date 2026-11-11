@@ -3,35 +3,35 @@ import { useEffect, useRef, useState } from "react";
 
 const galleryImages = [
   {
-    src: "/hero_images/SCEECS24_1.jpg",
+    src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386258/hero_images/SCEECS24_1.jpg",
     alt: "SCEECS 2024 Gallery Image 1"
   },
   {
-    src: "/hero_images/SCEECS24_2.jpg",
+    src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386258/hero_images/SCEECS24_2.jpg",
     alt: "SCEECS 2024 Gallery Image 2"
   },
   {
-    src: "/hero_images/SCEECS24_3.jpg",
+    src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386258/hero_images/SCEECS24_3.jpg",
     alt: "SCEECS 2024 Gallery Image 3"
   },
   {
-    src: "/hero_images/SCEECS24_4.jpg",
+    src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386258/hero_images/SCEECS24_4.jpg",
     alt: "SCEECS 2024 Gallery Image 4"
   },
   {
-    src: "/hero_images/SCEECS24_5.jpg",
+    src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386258/hero_images/SCEECS24_5.jpg",
     alt: "SCEECS 2024 Gallery Image 5"
   },
   {
-    src: "/hero_images/SCEECS24_6.jpg",
+    src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386258/hero_images/SCEECS24_6.jpg",
     alt: "SCEECS 2024 Gallery Image 6"
   },
   {
-    src: "/hero_images/SCEECS24_7.jpg",
+    src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386258/hero_images/SCEECS24_7.jpg",
     alt: "SCEECS 2024 Gallery Image 7"
   },
   {
-    src: "/hero_images/SCEECS24_8.jpg",
+    src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386258/hero_images/SCEECS24_8.jpg",
     alt: "SCEECS 2024 Gallery Image 8"
   }
 ];
