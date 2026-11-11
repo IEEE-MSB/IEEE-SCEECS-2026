@@ -8,8 +8,8 @@ import { ExternalLink } from 'lucide-react';
 const guestLecturers = [
     { name: "Keerti purswani", title: "Founder of Educosys", image: cloudinaryImage("/guest/Keerti.jpg"), link: "https://www.linkedin.com/in/keertipurswani?originalSubdomain=in" },
     { name: "Aditi Gupta", title: "Founder of TechTip24", image: cloudinaryImage("/guest/Aditi.jpg"), link: "https://www.linkedin.com/in/aditi-gupta-09b0a91b2/?originalSubdomain=in" },
-    { name: "Striver", title: "Founder of takeUforward", image: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794368026/striver_qtsz0i.jpg", link: "https://www.linkedin.com/in/rajstriver/?originalSubdomain=in" },
-    { name: "Sunchit Dudeja", title: "SDE | Adobe", image: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794368029/sunchit_dudeja_rrfp94.jpg", link: "https://www.linkedin.com/in/sunchitdudeja/?original_referer=https%3A%2F%2Fwww%2Ebing%2Ecom%2F&originalSubdomain=in" },
+    { name: "Striver", title: "Founder of takeUforward", image: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794383516/guest/striver.jpg", link: "https://www.linkedin.com/in/rajstriver/?originalSubdomain=in" },
+    { name: "Sunchit Dudeja", title: "SDE | Adobe", image: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794383522/guest/sunchit_dudeja.jpg", link: "https://www.linkedin.com/in/sunchitdudeja/?original_referer=https%3A%2F%2Fwww%2Ebing%2Ecom%2F&originalSubdomain=in" },
     { name: "Kamran Ali", title: "Sr. Engineering Manager | Atlassian", image: cloudinaryImage("/guest/kamran_ali.jpg"), link: "https://www.linkedin.com/in/systemdesignengineer/?originalSubdomain=in" },
     { name: "Raghav Garg", title: "Dsa Educator at PW", image: cloudinaryImage("/guest/Raghav.jpg"), link: "https://www.linkedin.com/in/raghav-garg-262a9b1b4/" },
     { name: "Love Babbar", title: "Founder of Codehelp", image: cloudinaryImage("/guest/love_babbar.jpg"), link: "https://www.linkedin.com/in/love-babbar-38ab2887/?originalSubdomain=in" },

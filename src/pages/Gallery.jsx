@@ -6,8 +6,8 @@ import Hero from '@/components/Hero';
 
 // Guest Lecturers Images
 const guestImages = [
-  { src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794368026/striver_qtsz0i.jpg", alt: "Striver" },
-  { src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794368029/sunchit_dudeja_rrfp94.jpg", alt: "Sunchit Dudeja" },
+  { src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794383516/guest/striver.jpg", alt: "Striver" },
+  { src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794383522/guest/sunchit_dudeja.jpg", alt: "Sunchit Dudeja" },
   { src: cloudinaryImage("/guest/kamran_ali.jpeg"), alt: "Kamran Ali" },
   { src: cloudinaryImage("/guest/love_babbar.jpg"), alt: "Love Babbar" },
   { src: cloudinaryImage("/guest/lakshya_kumar.jpeg"), alt: "Lakshya Kumar" },
@@ -132,7 +132,7 @@ function Gallery() {
 
   return (
     <>
-      <Hero src={cloudinaryImage("/background/7.jpg")} content="Gallery"/>
+      <Hero src={cloudinaryImage("/background/7.jpg")} content="Gallery" />
       <div className="min-h-screen bg-white py-16 px-4 md:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
@@ -165,8 +165,8 @@ function Gallery() {
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-6 py-3 font-semibold text-base md:text-lg rounded-lg transition-all duration-200 ${activeTab === tab.id
-                    ? 'bg-purple-600 text-white shadow-lg'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  ? 'bg-purple-600 text-white shadow-lg'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                   }`}
               >
                 {tab.label}
