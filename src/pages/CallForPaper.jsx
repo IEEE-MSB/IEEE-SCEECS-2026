@@ -22,7 +22,7 @@ function CallForPaper() {
       />
 
       {/* CMT Acknowledgment Banner at Top of Call For Paper */}
-      <div className="w-full bg-gray-50 border-y border-gray-200 py-6 px-4 md:px-8">
+      <div className="w-full bg-white border-b border-gray-200 py-4 px-3 sm:py-6 sm:px-8">
         <div className="max-w-5xl mx-auto text-center">
           <p className="text-xs uppercase tracking-wider font-bold text-gray-500 mb-2">
             Microsoft CMT Acknowledgment
