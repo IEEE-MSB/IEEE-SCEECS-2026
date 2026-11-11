@@ -1,3 +1,4 @@
+import { cloudinaryImage } from '@/utils/cloudinary';
 import React from 'react';
 
 const IEEEManitBranch = () => {
@@ -6,13 +7,13 @@ const IEEEManitBranch = () => {
       name: "Dr. Dheeraj Kumar Agarwal",
       role: "Organizing Chair",
       membershipNo: "92205335",
-      image: "/About_Images/Dheeraj_Agrawal_Sir2.jpg"
+      image: cloudinaryImage("/About_Images/Dheeraj_Agrawal_Sir2.jpg")
     },
     {
       name: "Dr. Atul Kumar",
       role: "Publication Chair",
       membershipNo: "94817808",
-      image: "/About_Images/Dr.Atul.Kumar.jpg"
+      image: cloudinaryImage("/About_Images/Dr.Atul.Kumar.jpg")
     }
   ];
 

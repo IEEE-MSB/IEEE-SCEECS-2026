@@ -1,3 +1,4 @@
+import { cloudinaryImage } from '@/utils/cloudinary';
 import { FeatureSteps } from '../feature-section';
 import { Link } from 'react-router-dom';
 
@@ -6,41 +7,41 @@ const speakers = [
     title: "Love Babbar",
     step: "Expert Speaker",
     content: "Renowned expert in technology and innovation, bringing years of industry experience and cutting-edge insights to inspire the next generation of engineers and researchers.",
-    image: "/guest/final.webp"
+    image: cloudinaryImage("/guest/final.webp")
   },
   {
     title: "Sunchit Dudeja",
     step: "Expert Speaker",
     content: "Renowned expert in technology and innovation, bringing years of industry experience and cutting-edge insights to inspire the next generation of engineers and researchers.",
-    image: "/guest/sunchit_dudeja.jpeg"
+    image: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794368029/sunchit_dudeja_rrfp94.jpg"
   },
   {
     title: "Kamran Ali",
     step: "Industry Leader",
     content: "Distinguished professional with extensive expertise in engineering and research, sharing valuable knowledge and practical insights from years of groundbreaking work.",
-    image: "/guest/kamran_ali.jpeg"
+    image: cloudinaryImage("/guest/kamran_ali.jpeg")
   },
   {
     title: "Many More",
     step: "Distinguished Speakers",
     content: "Join us for an exciting lineup of distinguished speakers and industry leaders who will share their expertise and insights at SCEECS 2027.",
-    image: "/guest/lakshya_kumar.jpeg"
+    image: cloudinaryImage("lakshya_kumar.jpeg")
   }
 ];
 
 function GuestLectures() {
   return (
-    <div className="bg-white py-8 sm:py-12 md:py-16 px-4 md:px-8">
+    <div className="min-h-screen bg-white py-16 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
-        <div className="text-center mb-8 sm:mb-12">
-          <p className="text-purple-600 text-xs sm:text-sm md:text-base font-semibold uppercase tracking-wider mb-2">Welcome to SCEECS'27</p>
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">
+        <div className="text-center mb-12">
+          <p className="text-purple-600 text-lg font-medium mb-2">Welcome to SCEECS'27</p>
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-4">
             Past Speakers
           </h1>
-          <div className="flex justify-center mb-4 sm:mb-6">
+          <div className="flex justify-center mb-6">
             <svg
-              className="w-24 sm:w-32 h-2 text-pink-400"
+              className="w-32 h-2 text-pink-400"
               viewBox="0 0 128 4"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -53,16 +54,16 @@ function GuestLectures() {
               />
             </svg>
           </div>
-          <p className="text-gray-700 text-xs sm:text-sm md:text-base max-w-3xl mx-auto leading-relaxed">
+          <p className="text-gray-700 text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
             IEEE brings together prominent personalities from various disciplines under one roof, an astonishing series of lectures to benefit you from the breadth of knowledge and depth of expertise. An experience that will enlighten your mind with innovations and creativity.
           </p>
         </div>
 
         {/* Know our Speakers Button */}
-        <div className="text-center mb-8 sm:mb-12">
+        <div className="text-center mb-12">
           <Link
             to="/guestlecturers"
-            className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2.5 sm:py-3 px-6 sm:px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-sm sm:text-base"
+            className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 text-lg"
           >
             Know our Speakers
           </Link>

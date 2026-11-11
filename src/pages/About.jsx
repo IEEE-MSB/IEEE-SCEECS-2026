@@ -1,3 +1,4 @@
+import { cloudinaryImage } from '@/utils/cloudinary';
 import Gallery from '../components/Home/Gallery';
 import Team from '../components/Home/Team';
 import HeroVideo from '../components/hero-video';
@@ -48,8 +49,8 @@ const features = [
 
 function About() {
   return (
-    <div className="min-h-screen bg-white">
-      <Hero src="/background/10.jpg" content="About Us" />
+    <div className="min-h-screen bg-white mt-8">
+      <Hero src={cloudinaryImage("/background/10.jpg")} content="About Us" />
       {/* Header Section */}
       <div className="py-8 sm:py-12 md:py-16 px-4 md:px-8 bg-white">
         <div className="max-w-7xl mx-auto">

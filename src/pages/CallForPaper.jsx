@@ -14,10 +14,10 @@ function CallForPaper() {
 
   return (
     <div>
-      <Hero 
-        src="/background/9.jpg" 
-        content="Call For Papers (CFP)" 
-        dates="30th Jan - 31st Jan 2027, Bhopal, India." 
+      <Hero
+        src="/background/9.jpg"
+        content="Call For Papers (CFP)"
+        dates="30th Jan - 31st Jan 2027, Bhopal, India."
         buttonContent={quickLinks}
       />
 
