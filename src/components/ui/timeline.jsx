@@ -1,8 +1,10 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Timeline = ({
-  data
+  data,
+  detailLink = "/callforpaper"
 }) => {
   const dotColors = ['bg-purple-500', 'bg-pink-500', 'bg-blue-400', 'bg-purple-500', 'bg-pink-500', 'bg-blue-400'];
   const ref = useRef(null);
