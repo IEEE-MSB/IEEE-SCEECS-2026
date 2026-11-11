@@ -114,7 +114,7 @@ function About() {
 
       {/* Hero Video Section - Below Feature Cards */}
       <HeroVideo
-        videoSrc="/video/recap-2025.mp4"
+        videoSrc="https://res.cloudinary.com/djqx5qrb1/video/upload/v1794386038/video/recap-2025.mp4"
         showHeader={false}
       />
 
