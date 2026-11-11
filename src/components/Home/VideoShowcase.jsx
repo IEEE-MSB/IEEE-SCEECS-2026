@@ -11,7 +11,6 @@ const heroImages = [
   { src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386262/hero_images/SCEECS24_5.jpg", alt: "SCEECS 2024 Image 5" },
   { src: "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794386263/hero_images/SCEECS24_6.jpg", alt: "SCEECS 2024 Image 6" },
 ];
-
 function VideoShowcase() {
   return (
     <div className="relative w-full bg-white ">
