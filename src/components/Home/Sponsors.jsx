@@ -2,20 +2,20 @@ import { cloudinaryImage } from '@/utils/cloudinary';
 import { LogoCarousel } from '../ui/logo-carousel';
 
 const sponsorImages = [
-  cloudinaryImage("/sponsors/1.png"),
-  cloudinaryImage("/sponsors/2.png"),
-  cloudinaryImage("/sponsors/3.png"),
-  cloudinaryImage("/sponsors/4.png"),
-  cloudinaryImage("/sponsors/5.png"),
-  cloudinaryImage("/sponsors/6.png"),
-  cloudinaryImage("/sponsors/7.png"),
-  cloudinaryImage("/sponsors/balsamiq2.png"),
-  cloudinaryImage("/sponsors/coding-thinker-logo.png"),
-  cloudinaryImage("/sponsors/codingNinjas.png"),
-  cloudinaryImage("/sponsors/EDtimes.png"),
-  cloudinaryImage("/sponsors/hitbullseye-logo.png"),
-  cloudinaryImage("/sponsors/ibuddy2.png"),
-  cloudinaryImage("/sponsors/RagaAI.png"),
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385541/sponsors/1.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385542/sponsors/2.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385543/sponsors/3.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385544/sponsors/4.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385545/sponsors/5.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385546/sponsors/6.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385547/sponsors/7.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385560/sponsors/balsamiq2.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385564/sponsors/coding-thinker-logo.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385562/sponsors/codingNinjas.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385565/sponsors/EDtimes.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385568/sponsors/hitbullseye-logo.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385570/sponsors/ibuddy2.png",
+  "https://res.cloudinary.com/djqx5qrb1/image/upload/v1794385571/sponsors/RagaAI.png",
 ];
 
 // Convert image paths to logo objects with img components
