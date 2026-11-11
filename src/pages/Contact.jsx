@@ -1,3 +1,4 @@
+import { cloudinaryImage } from '@/utils/cloudinary';
 import { PixelImage } from '../components/pixel-image';
 import Hero from '@/components/Hero';
 
@@ -5,25 +6,25 @@ const teamMembers = [
   {
     name: "Mr. Rahul Agarwal",
     role: "Organizing Co-chair",
-    image: "/contactTeam/RahulAgarwal.jpg",
+    image: cloudinaryImage("/contactTeam/RahulAgarwal.jpg"),
     linkedin: "https://www.linkedin.com/in/rahul-agarwal-845636282/"
   },
   {
     name: "Mr. Ayush Kumar",
     role: "Publication Co-chair",
-    image: "/contactTeam/Ayush.jpg",
+    image: cloudinaryImage("/contactTeam/Ayush.jpg"),
     linkedin: "https://www.linkedin.com/in/ayush-kumar-manit-bhopal/"
   },
   {
     name: "Ms. Prerna Chaurasiya",
     role: "Publication Co-chair",
-    image: "/contactTeam/prerna.jpeg",
+    image: cloudinaryImage("/contactTeam/prerna.jpeg"),
     linkedin: "https://www.linkedin.com/in/prernaaa30/"
   },
   {
     name: "Ms. Tanvi Sundarkar",
     role: "Finance Co-chair",
-    image: "/contactTeam/tanvi.jpg",
+    image: cloudinaryImage("/contactTeam/tanvi.jpg"),
     linkedin: "https://www.linkedin.com/in/tanvi-sundarkar-b62088280/"
   }
 ];
@@ -31,7 +32,7 @@ const teamMembers = [
 function Contact() {
   return (
     <>
-      <Hero src="/background/11.jpg" content="Contact" />
+      <Hero src={cloudinaryImage("/background/11.jpg")} content="Contact" />
 
       <div className="min-h-screen bg-white py-12 px-4">
         <div className="container mx-auto max-w-6xl">
